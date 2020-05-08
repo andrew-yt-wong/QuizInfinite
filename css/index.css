@@ -1,0 +1,60 @@
+html, body {
+	background-color: #B9BFFF;
+}
+
+#page {
+	background-color: #B9BFFF;
+}
+
+#intro {
+	margin: 50% auto;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+#intro #title {
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Raleway', sans-serif;
+
+	display: none;
+	text-shadow: 5px 5px 10px grey;
+}
+
+.nav .nav-item .nav-link {
+	font-size: 22px;
+	color: white;
+	opacity: 0.5;
+	text-shadow: 10px 10px 10px grey;
+}
+
+#navigation {
+	display: none;
+}
+
+.head {
+	display: none;
+	text-shadow: 10px 10px 10px grey;
+}
+
+@media (min-width: 992px) {
+	#intro {
+		margin: 15% auto;
+		font-size: 22px;
+	}
+
+	#intro #title {
+		font-size: 100px;
+	}
+}
+
+body hr {
+	width: 25%;
+	color: white;
+	border-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	display: none;
+}
